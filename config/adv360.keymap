@@ -21,6 +21,22 @@
         };
     };
 
+    macros {
+        volumeUp: volumeUp {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&volumeUp &kp LS(UP_ARROW)>;
+            label = "VOLUMEUP";
+        };
+
+        volumeDown: volumeDown {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(DOWN)>;
+            label = "VOLUMEDOWN";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
