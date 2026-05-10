@@ -92,13 +92,13 @@
         };
 
         nav4 {
-            display-name = "Fn";
+            display-name = "Nav";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none                                       &none   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans    &trans     &trans    &trans  &trans                                      &trans  &trans    &trans        &trans         &trans     &trans   &trans
+&trans  &trans     &trans    &trans     &trans    &trans  &none                                       &none   &trans    &kp HOME      &kp PG_DN      &kp PG_UP  &kp END  &trans
+&trans  &kp LSHFT  &kp LALT  &kp LCTRL  &kp LGUI  &trans  &none   &trans  &trans      &trans  &trans  &none   &kp LEFT  &kp DOWN      &kp UP         &kp RIGHT  &trans   &trans
+&trans  &trans     &trans    &trans     &trans    &trans                  &trans      &trans                  &trans    &kp LA(LEFT)  &kp LA(RIGHT)  &trans     &trans   &trans
+&trans  &trans     &trans    &trans     &trans          &trans  &trans  &trans      &trans  &trans  &trans            &trans        &trans         &trans     &trans   &trans
             >;
         };
     };
